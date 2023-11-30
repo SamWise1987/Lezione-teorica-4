@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <style>
+        .flex-container {
+            display: flex;
+            border: 1px solid black;
+            height: 200px;
+            flex-wrap: wrap;
+
+        }
+
+        .flex-items {
+            width: 40px;
+            height: auto;
+            padding: 20px;
+            text-align: center;
+            margin: 5px;
+            background-color: blanchedalmond;
+        }
+
+        .order-0 {
+            order: 1;
+        }
+
+        .order-1 {
+            order: 2;
+        }
+
+        .order-2 {
+            order: 8;
+        }
+
+        .order-neg {
+            order: -4;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Order</h1>
+    <div class="flex-container">
+        <div class="flex-items order-0">1</div>
+        <div class="flex-items order-1">2</div>
+        <div class="flex-items order-2">3</div>
+        <div class="flex-items">4</div>
+        <div class="flex-items">5</div>
+        <div class="flex-items">6</div>
+        <div class="flex-items">7</div>
+        <div class="flex-items order-neg">8</div>
+    </div>
+
+</body>
+
+</html>

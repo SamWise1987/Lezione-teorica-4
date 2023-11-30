@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align-items</title>
+
+    <style>
+        .flex-container {
+            display: flex;
+            border: 2px solid black;
+            margin-bottom: 50px;
+        }
+
+        .flex-items {
+            /* flex: 1; */
+            width: 30px;
+            height: auto;
+            padding: 20px;
+            border: 1px solid black;
+            margin: 5px;
+            background-color: aqua;
+        }
+
+        /* streatch è la regola base */
+        .align-stretch {
+            align-items: stretch;
+        }
+
+        .align-start {
+            align-items: flex-start;
+        }
+
+        .align-end {
+            align-items: flex-end;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Align-items</h1>
+
+    <div class="flex-container align-stretch">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+        <div class="flex-items">4</div>
+        <div class="flex-items">5</div>
+        <div class="flex-items">6</div>
+        <div class="flex-items">7</div>
+        <div class="flex-items">8</div>
+    </div>
+
+    <div class="flex-container align-start">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+        <div class="flex-items">4</div>
+        <div class="flex-items">5</div>
+        <div class="flex-items">6</div>
+        <div class="flex-items">7</div>
+        <div class="flex-items">8</div>
+    </div>
+
+    <div class="flex-container align-end">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+        <div class="flex-items">4</div>
+        <div class="flex-items">5</div>
+        <div class="flex-items">6</div>
+        <div class="flex-items">7</div>
+        <div class="flex-items">8</div>
+    </div>
+
+    <div class="flex-container align-center">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+        <div class="flex-items">4</div>
+        <div class="flex-items">5</div>
+        <div class="flex-items">6</div>
+        <div class="flex-items">7</div>
+        <div class="flex-items">8</div>
+    </div>
+
+
+
+</body>
+
+</html>

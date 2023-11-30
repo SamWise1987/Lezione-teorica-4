@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify-Content</title>
+
+    <style>
+        .flex-container {
+            display: flex;
+            border: 2px solid black;
+            margin-bottom: 50px;
+        }
+
+        .flex-items {
+            /* flex: 1; */
+            width: 30px;
+            height: auto;
+            padding: 20px;
+            border: 1px solid black;
+            margin: 5px;
+            background-color: aqua;
+        }
+
+        .Justify-Start {
+            justify-content: flex-start;
+        }
+
+        .Justify-End {
+            justify-content: flex-end;
+        }
+        .Justify-center{
+            justify-content: center;
+        }
+
+        .Justify-between{
+justify-content: space-between
+        }
+
+        .Justify-around{
+            justify-content: space-around;
+        }
+
+        .Justify-evenly{
+            justify-content: space-evenly;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Justify-Content</h1>
+
+    <div class="flex-container Justify-Start">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+        <div class="flex-items">4</div>
+        <div class="flex-items">5</div>
+        <div class="flex-items">6</div>
+        <div class="flex-items">7</div>
+        <div class="flex-items">8</div>
+    </div>
+
+    <div class="flex-container Justify-End">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+        <div class="flex-items">4</div>
+        <div class="flex-items">5</div>
+        <div class="flex-items">6</div>
+        <div class="flex-items">7</div>
+        <div class="flex-items">8</div>
+    </div>
+
+    <div class="flex-container Justify-center">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+        <div class="flex-items">4</div>
+        <div class="flex-items">5</div>
+        <div class="flex-items">6</div>
+        <div class="flex-items">7</div>
+        <div class="flex-items">8</div>
+    </div>
+
+    <div class="flex-container Justify-between">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+        <div class="flex-items">4</div>
+        <div class="flex-items">5</div>
+        <div class="flex-items">6</div>
+        <div class="flex-items">7</div>
+        <div class="flex-items">8</div>
+    </div>
+    <div class="flex-container Justify-around">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+        <div class="flex-items">4</div>
+        <div class="flex-items">5</div>
+        <div class="flex-items">6</div>
+        <div class="flex-items">7</div>
+        <div class="flex-items">8</div>
+    </div>
+
+    <div class="flex-container Justify-evenly">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+        <div class="flex-items">4</div>
+        <div class="flex-items">5</div>
+        <div class="flex-items">6</div>
+        <div class="flex-items">7</div>
+        <div class="flex-items">8</div>
+    </div>
+</body>
+
+
+</html>
